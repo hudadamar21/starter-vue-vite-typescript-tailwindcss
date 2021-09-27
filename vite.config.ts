@@ -6,11 +6,6 @@ export default {
         alias: [
             {find: "@", replacement: path.resolve(__dirname, 'src')}
         ],
-        optimizeDeps: {
-            include: [
-                "javascript-time-ago/locale/de"
-            ],
-        },
     },
     plugins: [vue()]
 };

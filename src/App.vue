@@ -8,7 +8,7 @@ const changeTheme = () => document.body.classList.toggle('dark')
 <template>
   <section class="section-home">
     <Home 
-      title="Vue + Vite + Tailwindcss"
+      title="Vue + Vite + Typescript + Tailwindcss"
       @changetheme="changeTheme"
     />
   </section>

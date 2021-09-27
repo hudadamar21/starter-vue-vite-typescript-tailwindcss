@@ -21,6 +21,6 @@ const emit = defineEmits(['changetheme'])
     @apply text-5xl font-bold text-green-500
   }
   .btn {
-    @apply px-4 py-2 rounded shadow text-xl font-semibold text-white bg-green-500 hover:bg-opacity-80 mt-5
+    @apply px-4 py-2 rounded shadow text-xl font-semibold text-white bg-green-500 hover:bg-opacity-80 mt-10
   }
 </style>
