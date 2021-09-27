@@ -1,6 +1,14 @@
-# Vue 3 + Typescript + Vite
+# Starter Vue 3 + Typescript + Vite + Tailwindcss
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This template should help get you started developing with Vue 3, Typescript and Tailwindcss in Vite. The template uses Vue 3 `<script setup>` SFCs.
+
+- [x] Vue 3
+- [x] Vite
+- [x] Typescript
+- [x] Tailwindcss
+- [x] Absolute path with '@/*'
+
+check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
 ## Recommended IDE Setup
 
