@@ -1,5 +1,6 @@
 const path = require('path');
 import vue from '@vitejs/plugin-vue'
+import Components from 'unplugin-vue-components/vite'
 
 export default {
     resolve: {
@@ -7,5 +8,8 @@ export default {
             {find: "@", replacement: path.resolve(__dirname, 'src')}
         ],
     },
-    plugins: [vue()]
+    plugins: [
+        vue(),
+        Components({ /* options */ }),
+    ]
 };

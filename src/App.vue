@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import Home from "@/components/Home.vue"
-
 const changeTheme = () => document.body.classList.toggle('dark')
-
 </script>
 
 <template>
   <section class="section-home">
+
+    <!-- Home Component auto importing -->
     <Home 
       title="Vue + Vite + Typescript + Tailwindcss"
       @changetheme="changeTheme"
