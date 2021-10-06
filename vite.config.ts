@@ -10,6 +10,9 @@ export default {
     },
     plugins: [
         vue(),
-        Components({ /* options */ }),
+        Components({ 
+            dts: 'src/components.d.ts',
+            include: [/\.vue$/, /\.vue\?vue/],
+        }),
     ]
 };
