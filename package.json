@@ -1,5 +1,5 @@
 {
-  "name": "arknight",
+  "name": "todo-list-gethired",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,7 +7,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.13"
+    "axios": "^0.23.0",
+    "sort-array": "^4.1.4",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@types/node": "^16.10.1",

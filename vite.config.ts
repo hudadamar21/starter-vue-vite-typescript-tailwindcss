@@ -7,11 +7,10 @@ export default {
         alias: [
             {find: "@", replacement: path.resolve(__dirname, 'src')}
         ],
-    },
+    }, 
     plugins: [
         vue(),
-        Components({ 
-            dts: 'src/components.d.ts',
+        Components({
             include: [/\.vue$/, /\.vue\?vue/],
         }),
     ]
